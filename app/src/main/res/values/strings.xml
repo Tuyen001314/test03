@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Task03</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="wallpapers">Wallpapers</string>
+    <string name="clean_ad_free_experience">Clean Ad-free experience</string>
+    <string name="add">+</string>
+    <string name="choose_your_plan">Choose your plan</string>
+    <string name="start_free_trial">Start Free Trial</string>
+    <string name="yearly">Yearly</string>
+    <string name="_89_950_year">89.950 đ/year</string>
+    <string name="save_60">Save 60%</string>
+    <string name="_3_days_free">3 DAYS FREE</string>
+    <string name="monthly">Monthly</string>
+    <string name="_23_000_month">23.000 đ/month</string>
+    <string name="ad_free_experience">Ad-free experience</string>
+    <string name="linh_linh">Linh Linh</string>
+    <string name="z10">Z10</string>
+    <string name="search_zedge">Search Zedge</string>
+    <string name="content_collection_child">asbcabsdasbaqwdassad</string>
+    <string name="title_collection_child">Christmas Days</string>
+    <string name="christmas">Christmas</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/text_title_ideas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/White"
+        android:text="Ideas for you"
+        android:layout_marginLeft="5dp"
+        android:paddingStart="5dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="5dp"
+        android:id="@+id/recycler_view_ideas_child"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_title_ideas" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
